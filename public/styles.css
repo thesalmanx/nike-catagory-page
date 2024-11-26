@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #F5F5F5;
+    align-items: center;
+    font-size: 14px;
+}
+.top-bar-links-side{
+    display: flex;
+    margin: 0;
+}
+.nike-jordan{
+    width: 60px;
+    margin: 0;
+}
+.top-links{
+    margin: 0 4px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    margin: 0 20px;
+}
+.top-heart{
+    width: 30px;
+}
+
+.nike-logo{
+    width: 70px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 20px;
+    position: absolute;
+    /* margin-left: 16px; */
+     margin: 0 12px;
+}
+.shopping-bag-header{
+    width: 30px;
+     margin: 0 12px;
+}
+.search-feild{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+     margin: 0 12px;
+     padding-left: 22px;
+}
+.list-items{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 150px;
+}
+.list-items > li {
+    margin: 10px 10px;
+}
+.header-side {
+    display: flex;
+    margin: 0 12px;
+}
+.announcement-bar {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+.announcement-bar > p{
+    margin: 10px 0px;
+}
+
+.shoe-card{
+    /* border: 1px solid red;; */
+    margin: 10px 20px;
+    /* height: 90px; */
+}
+.shoe-image{
+    width: 350px;
+}
+.shoe-card > h1{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+}
+.shoe-card > h3 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.shoe-card > p, h3 {
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.shoes-cards{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.shoe-color-boxes{
+    display: flex;
+}
+.shoe-color-boxes > div {
+    /* background-color: red; */
+    margin: 0px 10px;
+}
